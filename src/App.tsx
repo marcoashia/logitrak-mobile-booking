@@ -1,4 +1,6 @@
-import { useCallback, useEffect, useState } from '@lynx-js/react';
+import { useEffect, useCallback } from '@lynx-js/react';
+import { useAtom } from 'jotai'; // Import useAtom
+import { alterLogoAtom } from './store/atoms.js'; // Import the atom
 
 import './App.css';
 import arrow from './assets/arrow.png';
@@ -6,7 +8,7 @@ import lynxLogo from './assets/logitrak-logo.png';
 import reactLynxLogo from './assets/react-logo.png';
 
 export function App(props: { onMounted?: () => void }) {
-  const [alterLogo, setAlterLogo] = useState(false);
+  const [alterLogo, setAlterLogo] = useAtom(alterLogoAtom); // Use Jotai atom
 
   useEffect(() => {
     console.info('Hello, ReactLynx');

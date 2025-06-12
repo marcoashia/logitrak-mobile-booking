@@ -11,7 +11,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@lynx-js/react": "^0.109.2"
+    "@lynx-js/react": "^0.109.2",
+    "jotai": "^2.12.5"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
