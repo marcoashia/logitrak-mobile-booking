@@ -53,7 +53,7 @@ test('App', async () => {
             <text
               class="Subtitle"
             >
-              on Lynx ll
+              on Lynx 
             </text>
           </view>
           <view
