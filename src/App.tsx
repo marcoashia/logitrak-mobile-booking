@@ -32,7 +32,7 @@ export function App(props: { onMounted?: () => void }) {
               <image src={lynxLogo} className="Logo--lynx" />
             )}
           </view>
-          <text className="Title">LogiTrak</text>
+          <text className="Title">Logi-Trak</text>
         </view>
         <view className="Content">
           <image src={arrow} className="Arrow" />
