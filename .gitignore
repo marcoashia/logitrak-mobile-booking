@@ -11,3 +11,6 @@ dist/
 .vscode/*
 !.vscode/extensions.json
 .idea
+.yarn/install-state.gz
+.yarnrc.yml
+yarn.lock
